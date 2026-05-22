@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: net.engineeringdigest.journalApp.JournalAppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.083 s <<< FAILURE! - in net.engineeringdigest.journalApp.JournalAppApplicationTests
+contextLoads  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback.xml
+Caused by: java.lang.IllegalStateException: Could not initialize Logback logging from classpath:logback.xml
+Caused by: ch.qos.logback.core.joran.spi.JoranException: Problem parsing XML document. See previously reported errors.
+Caused by: org.xml.sax.SAXParseException: Premature end of file.
+
