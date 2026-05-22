@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: prod
+#
+#logging:
+#  level:
+#    net:
+#      engineeringdigest:
+#        journalApp: DEBUG
